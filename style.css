@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 60px 12px 0 12px;
+}
+.user-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-image {
+  height: 156px;
+  width: 156px;
+  border-radius: 16px;
+}
+.user-name {
+  margin-top: 16px;
+  font: normal 600 24px montserrat, sans serif;
+  color: #4e5150;
+}
+.user-address {
+  margin-top: 8px;
+  font: normal 600 14px montserrat, sans serif;
+  color: #a9a9a9;
+}
+
+.user-stats {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 67px;
+  width: 100px;
+  background-color: #e5e5e5;
+  border-radius: 12px;
+}
+.number {
+  font: normal 600 18px montserrat, sans serif;
+  color: #4e5150;
+}
+.stats-label {
+  font: normal 600 14px montserrat, sans serif;
+  color: #bdbdbd;
+}
+.image-content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.image {
+  border-radius: 12px;
+}
+.upper-section {
+  display: flex;
+  gap: 20px;
+}
+.one,
+.six,
+.five {
+  height: 299px;
+  width: 299px;
+}
+.two {
+  height: 299px;
+  width: 627px;
+}
+.lower-section {
+  display: flex;
+  gap: 20px;
+}
+.lower-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.three {
+  height: 299px;
+  width: 627px;
+}
+.lower-left-top,
+.lower-right-section {
+  display: flex;
+}
+.lower-left-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+.four {
+  width: 297px;
+  height: 620px;
+}
+
+.dev-info {
+  text-align: center;
+  margin-top: 93px;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding-top: 30px;
+  }
+  .user-image {
+    height: 101px;
+    width: 101px;
+  }
+  .user-name {
+    font-size: 14px;
+    margin-top: 11px;
+  }
+
+  .user-address {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  .user-stats {
+    margin-top: 12px;
+    gap: 15px;
+  }
+
+  .stats {
+    height: 52px;
+    width: 78px;
+  }
+  .number,
+  .stats-label {
+    font-size: 12px;
+  }
+  .upper-section,
+  .image-content-section,
+  .lower-section,
+  .lower-left-section,
+  .lower-left-bottom {
+    gap: 11.7px;
+  }
+
+  .one,
+  .five,
+  .six {
+    height: 109px;
+    width: 109px;
+  }
+  .two,
+  .three {
+    height: 109px;
+    width: 229px;
+  }
+  .four {
+    height: 230px;
+    width: 109px;
+  }
+  .dev-info {
+    margin-top: 44px;
+  }
+}
